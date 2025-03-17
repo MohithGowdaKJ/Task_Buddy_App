@@ -1,0 +1,168 @@
+header {
+    background-color: #1a202c;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1rem;
+    padding-right:  1rem;
+    box-shadow: 0 4px 6px black;
+}
+
+header .max-w-4xl {
+    max-width: 56rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+header h1 span {
+    color: #fbbf24;
+}
+
+header p {
+    color: #e2e8f0;
+    font-style: italic;
+}
+.App {
+    font-family: Arial,sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: #e4e4e4;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ffdf8b;
+    text-shadow: 2px 2px 5px black;
+}
+#vishnu {
+    display : flex;
+    gap: 10px;
+}
+#btns {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.inp{
+    display: flex;
+    gap: 10px;
+}
+.task-form {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.task-form input,
+.task-form select,
+.task-form button {
+    padding:  10px;
+    border: 2px solid #6c757d;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 1rem;
+}
+
+.task-form button {
+    background-color: #5df7d8;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.task-form button :hover {
+    background-color: #5df79b;
+}
+
+.task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border: 0px solid #6c757d;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #353535;
+    color: #e4e4e4;
+    box-shadow: 0 4px 6px black;
+    transition: transform 0.2s ease;
+}
+
+.task-list li:hover {
+    transform: scale(1.02);
+    background-color: #5b5a5a;
+}
+
+.task-list li.completed {
+    text-decoration: line-through;
+    color: white;
+}
+
+.task-list button {
+    background-color:  transparent;
+    border: none;
+    color:  #ffdf8b;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.task-list button:hover {
+    color: #f9e7b8;
+}
+
+.progress-tracker {
+    margin-top: 20px;
+    color: #e4e4e4;
+}
+
+.progress-bar {
+    height: 12px;
+    background-color: #6c757d;
+    margin: 10px 0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px black;
+}
+
+.progress {
+    height: 100%;
+    background-color: liner-gradient(90deg, #feba01,#8bc34a);
+    border-radius: 10px;
+    transition: width 0.3s ease;
+}
+
+.clear-btn {
+    background-color: #eb521d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 20px;
+}
+
+.clear-btn:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+}
